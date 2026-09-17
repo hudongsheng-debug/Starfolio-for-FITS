@@ -1,0 +1,34 @@
+# Support
+
+Support for **Starfolio for FITS**, **Chromara for FITS**, and **AstroNote for FITS**.
+
+**Email:** [hudongsheng356@gmail.com](mailto:hudongsheng356@gmail.com)
+
+## Report a problem
+
+Please include:
+
+- App name and version
+- macOS version
+- Steps to reproduce the issue
+- A screenshot or the exact error message, if available
+
+Please do not send private images or observation data unless needed to explain the issue.
+
+## Use an extension with FITS QuickLook Studio
+
+FITS QuickLook Studio **11.0.0 or later** is required to import extension packages. Install the companion app separately, edit your content, and export a package. In FITS QuickLook Studio, open **Extensions**, choose the corresponding app, and import the exported package.
+
+- **Starfolio for FITS:** Export an appearance package (`.fitsappearance`) and import it through the Starfolio extension page. Enable the theme to apply it.
+- **Chromara for FITS:** Export a color preset (`.chromara`) and import it through the Chromara extension page. Enable the preset to apply it to supported FITS previews.
+- **AstroNote for FITS:** Export annotations (`.astronote`) and import them through the AstroNote extension page. To display annotations over a FITS image, open the matching original file. Its fingerprint, dimensions, and HDU must match.
+
+Changes are applied through package import; they do not automatically synchronize between apps.
+
+## Continue after restarting
+
+Starfolio retains custom images locally. In Chromara, click **Save** to keep a preset in your library; unsaved adjustments and the last opened image are not automatically restored. AstroNote automatically saves the current draft; export an annotation package to keep a separate copy before replacing it.
+
+## Supported files
+
+Chromara and AstroNote support uncompressed 2D FITS files up to 512 MB, along with supported common image formats. Their preview and PNG export resolution is limited to 1024 pixels on the longest edge.
