@@ -1,0 +1,34 @@
+# Privacy Policy
+
+**Apps:** Starfolio for FITS, Chromara for FITS, and AstroNote for FITS  
+**Effective date:** September 17, 2026
+
+## Local processing
+
+These apps process selected images, appearance settings, color presets, annotations, and observation notes locally on your Mac. They do not require an account and do not send your imported files or editing content to the developer. The current versions do not include advertising or third-party analytics SDKs.
+
+## File access and storage
+
+The apps access external files when you select them. Custom appearance images, saved presets, and the current annotation draft are stored locally as applicable. Exported files are saved to a location you choose.
+
+## Exported files
+
+If you share an exported file, its contents become available to the recipient. Starfolio appearance packages contain custom images. Chromara preset packages contain color settings and preset names. AstroNote annotation packages include an image preview, annotations, observation notes, the source filename, and file-matching information, including a file fingerprint, image dimensions, and HDU information where applicable.
+
+Please review exported contents before sharing them. Importing a package into FITS QuickLook Studio makes its contents available to that app.
+
+## Support communications
+
+If you contact us for support, we use the information you provide to respond to your request. Email is handled by your email provider and our email service provider. Please avoid sending private images, observation data, or other sensitive information unless necessary to explain your issue.
+
+## Your choices
+
+You can choose which files to open and where to save exports. The apps provide controls for resetting custom appearance items, deleting saved presets, or replacing the current annotation draft, as applicable. Exported files remain in the locations you choose and can be deleted using Finder.
+
+## Changes to this policy
+
+We may update this policy when the apps or their data practices change. The effective date above identifies the latest revision.
+
+## Contact
+
+For privacy questions, contact: [hudongsheng356@gmail.com](mailto:hudongsheng356@gmail.com).
