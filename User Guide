@@ -1,0 +1,60 @@
+# Starfolio for FITS — User Guide
+
+Personalize the cards, tool icons, and backgrounds in your FITS workspace with your own images.
+
+## Requirements
+
+Starfolio requires macOS 14 or later. To apply an appearance package, install FITS QuickLook Studio 11.0.0 or later separately.
+
+## Create Your Appearance
+
+1. Open Starfolio.
+2. Choose **Home cards**, **Subcards**, **Tool icons**, or **Backgrounds & workspace**.
+3. Select the item you want to customize.
+4. Click **Choose local image…** and select a PNG, JPEG, HEIC, or TIFF image.
+5. Check the preview. Your image is resized proportionally and center-cropped to fit the selected item.
+6. Repeat for any other items you want to change.
+7. Click **Export theme…** and save the `.fitsappearance` file. If the button is not visible, widen the window.
+
+## Apply the Theme in FITS QuickLook Studio
+
+1. Open FITS QuickLook Studio 11.0.0 or later.
+2. Choose **Extensions → Starfolio · Appearance**.
+3. Click **Import theme…** and select your `.fitsappearance` file.
+4. Turn on **Enable theme**.
+5. Return to the home screen or workspace to view your changes.
+
+Importing a theme replaces the current appearance. Items not included in the package return to their default images. Changes do not synchronize automatically: export and import a new package whenever you update your theme.
+
+## Image Sizes
+
+| Item | Output size in pixels |
+|---|---|
+| Home cards | 1120 × 1400 |
+| Subcards | 465 × 650 |
+| Tool icons | 143 × 143 |
+| Home and workspace backgrounds | 3265 × 1765 |
+
+Tool icons are icons inside FITS QuickLook Studio, not the app icon shown in Finder or the Dock.
+
+## Restore Defaults
+
+Select an item and click **Restore this default** to remove its custom image. Use **Restore all defaults** to reset all custom images in the current app. In the main app, turn off **Enable theme** to temporarily display the default appearance.
+
+Starfolio and FITS QuickLook Studio keep their own local copies. Resetting or editing one app does not automatically update the other. Moving an original image does not remove the imported copy.
+
+## Troubleshooting
+
+- **The main app still shows the old image:** Export the updated theme, import it again in the main app, and check that **Enable theme** is on.
+- **The Extensions menu is missing:** Check that you are running FITS QuickLook Studio 11.0.0 or later.
+- **The image looks cropped:** Center-cropping is automatic. Prepare an image with the target aspect ratio if you want more control over the composition.
+
+## Languages
+
+The interface supports English, French, Spanish, German, and Simplified Chinese. It follows your macOS app language settings.
+
+## Contact Support
+
+Email: [hudongsheng356@gmail.com](mailto:hudongsheng356@gmail.com)
+
+Please include the app version, macOS version, the steps you followed, and any error message. Avoid sending private images or observation data unless necessary to explain the issue.
